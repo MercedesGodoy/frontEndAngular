@@ -1,17 +1,6 @@
 
-/* #body{
-    background-image: url(src\assets\banner.webp)
-} */
-#mi-logo1{
-    border-radius: 50%;
-}
-#logo  {
+#logo {
     height: 40px; margin-top: 7px;
-}
-#milogo{
-    height: 40px; margin-top: 7px;
-    margin-right: 2rem;
-    border-radius: 50%;
 }
 
 .linkedin {

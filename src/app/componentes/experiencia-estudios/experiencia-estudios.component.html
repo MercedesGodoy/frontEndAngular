@@ -1,0 +1,65 @@
+<div class="container-fluid fondo"> <!--experiencia laboral-->
+    <div class="row">
+        <div class="col-12" style="height: 50px;"></div>
+        <h3 style="margin-bottom: 15px;">Experiencia laboral</h3>
+    </div>
+    <div class="row">
+        <div class="col-2 shadow m-1 e-l" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p class="text-center" style="margin-top: 15px;"> Instituto José María Paz <br>
+            <em>2019 - actualidad</em></p>
+        </div>
+        <div class="col shadow m-1" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p style="margin-top: 15px;"><strong>Profesora de Lengua</strong> <br>
+             Me desempeño como docente en el nivel secundario. Constantemente busco nuevas maneras de innovar desde mi rol de educadora.</p>
+        </div>
+        <div class="col-12" style="height: 15px;"></div>
+        <div class="col-2 shadow m-1" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p> Profesora de Lengua y Literatura</p>
+            <p><em>Instituto Provincial Dean Funes</em></p>
+        </div>
+        <div class="col shadow m-1" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p> Me desempeño como docente en el nivel secundario. Constantemente busco nuevas maneras de innovar desde mi rol de educadora.</p>
+        </div>
+    </div>
+  </div>
+  <div class="container-fluid fondo"> <!--estudios-->
+    <div class="row">
+        <div class="col-12" style="height: 50px;"></div>
+        <h3 style="margin-bottom: 15px;">Formación</h3>
+    </div>
+    <div class="row">
+        <div class="col-2 shadow m-1 e-l" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p> Full Stack Developer Jr</p>
+            <p><em>Argentina Programa</em></p>
+        </div>
+        <div class="col shadow m-1" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p> Adquirí conocimientos de los lenguajes: HTML, CSS y JavaScript</p>
+        </div>
+        <div class="col-12" style="height: 15px;"></div>
+        <div class="col-2 shadow m-1" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p> Profesorado de Lengua y Literatura</p>
+            <p><em>Instituto de Formación Docente "Itatí"</em></p>
+        </div>
+        <div class="col shadow m-1" style="border-radius: 10px ; background-color: rgb(211, 207, 207);">
+            <p> Recibí una formación de un total de 4 años, que me habilita a dar clases en el nivel secundario</p>
+        </div>
+        <div class="col-9" id="proyectos">
+            <div class="card-titles">
+               <h3>Proyectos</h3>
+                <ul class="item-list">
+                    <li *ngFor="let proyecto of proyectosList">
+                        <div class="data-container">
+                            <div class="list-info">
+                                <div>
+                                    <h3>{{proyecto.nombre}}</h3>
+                                    <h4>Herramientas utilizadas: {{proyecto.herramientas}}</h4>
+                                    <h5>Periodo de desarrollo: {{proyecto.tiempo}}</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul> 
+            </div> 
+        </div>
+    </div>
+  </div>

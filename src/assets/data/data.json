@@ -1,0 +1,35 @@
+{
+  "name": "María Mercedes Godoy Rojas",
+  "backImage": "",
+  "imagen": "./assets/foto.jpg",
+  "profesion": "Full Stack Web Developer",
+  "estudios": {
+    "nombre": "INTI",
+    "carrera": "Desarrollo Web Full Stack",
+    "img": ""
+  },
+  "ubicacion": "Córdoba, Argentina",
+  "about": "Desarrolladora Web Junior con especialización en diseño UI/UX",
+  "proyectos": [
+    {
+    "nombre": "Potfolio personal",
+    "url": "",
+    "herramientas": ["HTML", " CSS", " JAVASCRIPT", " TYPESCRIPT", " ANGULAR", " BOOTSTRAP"],
+    "tiempo": "6 meses" 
+  },
+    {
+    "nombre":"",
+    "url":"",
+    "herramientas": "",
+    "tiempo":""
+  },
+  {
+    "nombre":"",
+    "url":"",
+    "herramientas": "",
+    "tiempo":""
+  }
+],
+"aptitudes": []
+
+}
